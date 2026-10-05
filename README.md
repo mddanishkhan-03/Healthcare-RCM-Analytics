@@ -1,4 +1,4 @@
-# Healthcare-RCM-Analytics
+x# Healthcare-RCM-Analytics
 
 Healthcare Revenue Cycle Analytics using SQL Server and Power BI
 
@@ -186,7 +186,7 @@ Validation included:
 
 The final Power BI dashboard provides an executive view of healthcare Revenue Cycle Management performance, covering claims, billing, payments, denials, AR aging, payer performance, and provider performance.
 
-![Healthcare Revenue Dashboard](healthcare-revenue-dashboard.png)
+![Healthcare Revenue Dashboard](<Healthcare Revenue Dashboard 1.png>)
 
 ## Project Structure
 
