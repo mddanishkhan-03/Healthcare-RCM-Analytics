@@ -28,14 +28,16 @@ The solution uses SQL Server for data storage and analytical querying, and Micro
 - **Excel** — Initial source dataset
 - **GitHub** — Project documentation and version control
 
-- ## Data Model
+## Data Model
 
 The project follows a **Star Schema** design.
 
 ### Fact Table
+
 - `FactClaims`
 
 ### Dimension Tables
+
 - `DimDate`
 - `DimPayer`
 - `DimProvider`
@@ -69,7 +71,7 @@ Key analyses included:
 - Top providers within each specialty using `ROW_NUMBER()`
 - Provider performance benchmarking using multiple CTEs
 
-- ## Power BI Dashboard
+## Power BI Dashboard
 
 The Power BI dashboard provides an executive view of healthcare Revenue Cycle performance.
 
@@ -95,7 +97,7 @@ The Power BI dashboard provides an executive view of healthcare Revenue Cycle pe
 - Payer & Provider Performance
 - Interactive filtering by Date, Payer, Provider, Facility, and Claim Status
 
-- ## DAX Measures
+## DAX Measures
 
 DAX was used to create reusable business measures and analytical calculations, including:
 
@@ -128,7 +130,7 @@ Time-intelligence calculations were implemented using functions such as `TOTALYT
 - Overall collection rate was approximately **63.7%**.
 - Overall denial rate was approximately **8.8%**.
 
-- ## Project Workflow
+## Project Workflow
 
 ```text
 Excel Dataset
@@ -148,6 +150,7 @@ DAX Measures
 Interactive Power BI Dashboard
      ↓
 SQL ↔ Power BI Validation
+```
 
 ## Data Disclaimer
 
@@ -171,13 +174,13 @@ Validation included:
 - AR aging
 - Payer performance
 - Provider performance
-- Monthly billed vs paid 
+- Monthly billed vs paid trends
 
 ## Limitations
 
 - The dataset is synthetic and intended for portfolio demonstration.
 - The analysis focuses on core healthcare RCM metrics and does not represent a production healthcare environment.
-- Advanced production topics such as database performance tuning, stored procedures, security implementation, and automated data pipelines are outside the scope of this project.
+- Advanced production topics such as database performance tuning, stored procedures, security implementation, and automated data pipelines are outside the scope of the project.
 
 ## Dashboard Preview
 
@@ -190,17 +193,12 @@ The final Power BI dashboard provides an executive view of healthcare Revenue Cy
 ```text
 Healthcare-RCM-Analytics/
 │
-├── SQL/
-│   └── Healthcare_RCM_SQL_Analysis.sql
-│
-├── PowerBI/
-│   └── Healthcare_RCM_Analytics.pbix
-│
-├── Dataset/
-│   └── Healthcare_RCM_Analytics_Dataset.xlsx
-│
+├── Healthcare_RCM_SQL_Analysis.sql
+├── Healthcare_RCM_Analytics.pbix
+├── Healthcare_RCM_Analytics_Dataset_v2.xlsx
+├── healthcare-revenue-dashboard.png
 └── README.md
-
+```
 
 ## Project Outcome
 
@@ -219,7 +217,6 @@ It showcases practical skills in:
 - Denial and AR analysis
 - Payer and provider performance analysis
 - Business insight generation
-
 
 ## Author
 
