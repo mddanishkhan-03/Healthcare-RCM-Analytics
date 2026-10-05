@@ -183,7 +183,7 @@ Validation included:
 
 The final Power BI dashboard provides an executive view of healthcare Revenue Cycle Management performance, covering claims, billing, payments, denials, AR aging, payer performance, and provider performance.
 
-![Healthcare Revenue Dashboard](Healthcare%20Revenue%20Dashboard.png)
+![Healthcare Revenue Dashboard](healthcare-revenue-dashboard.png)
 
 ## Project Structure
 
