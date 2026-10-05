@@ -193,9 +193,13 @@ The final Power BI dashboard provides an executive view of healthcare Revenue Cy
 ```text
 Healthcare-RCM-Analytics/
 │
-├── Healthcare_RCM_SQL_Analysis.sql
-├── Healthcare_RCM_Analytics.pbix
-├── Healthcare_RCM_Analytics_Dataset_v2.xlsx
+├── Dataset/
+│   └── Healthcare_RCM_Analytics_Dataset_v2.xlsx
+│
+├── SQL/
+│   └── Healthcare_RCM_SQL_Analysis.sql
+│
+├── Healthcare_RCM_Analytics_Project.pbix
 ├── healthcare-revenue-dashboard.png
 └── README.md
 ```
